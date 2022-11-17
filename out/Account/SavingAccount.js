@@ -15,7 +15,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.SavingAccount = void 0;
 const BankProcess_1 = require("./BankProcess");
 const prompt_sync_1 = __importDefault(require("prompt-sync"));
-const DbQueryController_1 = require("../Helper/DbQueryController");
+const DbQueryController_1 = require("../DbHelper/DbQueryController");
 let PROMPT = (0, prompt_sync_1.default)();
 class SavingAccount extends BankProcess_1.BankProcess {
     constructor() {

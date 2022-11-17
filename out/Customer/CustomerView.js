@@ -11,7 +11,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.viewCurrentAccount_Customer = exports.viewSavingAccount_Customer = exports.viewCustomerDetail = void 0;
 const Customer_1 = require("./Customer");
-const DbQueryController_1 = require("../Helper/DbQueryController");
+const DbQueryController_1 = require("../DbHelper/DbQueryController");
 let customerobj = new Customer_1.Customer();
 function viewCustomerDetail(accountno) {
     return __awaiter(this, void 0, void 0, function* () {

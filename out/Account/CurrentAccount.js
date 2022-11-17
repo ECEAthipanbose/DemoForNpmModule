@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CurrentAccount = void 0;
 const BankProcess_1 = require("./BankProcess");
-const DbQueryController_1 = require("../Helper/DbQueryController");
+const DbQueryController_1 = require("../DbHelper/DbQueryController");
 const prompt_sync_1 = __importDefault(require("prompt-sync"));
 let PROMPT = (0, prompt_sync_1.default)();
 class CurrentAccount extends BankProcess_1.BankProcess {

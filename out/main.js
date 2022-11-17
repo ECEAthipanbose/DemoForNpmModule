@@ -35,8 +35,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const dbtable = __importStar(require("./Helper/TableCreationInDb"));
-const DbConnection_1 = require("./Helper/DbConnection");
+const dbtable = __importStar(require("./DbHelper/TableCreationInDb"));
+const DbConnection_1 = require("./DbHelper/DbConnection");
 const prompt_sync_1 = __importDefault(require("prompt-sync"));
 const User_1 = require("./Service/User");
 const ManagerLogin_1 = require("./Service/ManagerLogin");
@@ -77,4 +77,4 @@ function start() {
         }
     });
 }
-run();
+start();

@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BankProcess = void 0;
-const DbQueryController_1 = require("../Helper/DbQueryController");
+const DbQueryController_1 = require("../DbHelper/DbQueryController");
 class BankProcess {
     constructor() {
         this.date = '';

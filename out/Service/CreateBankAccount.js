@@ -16,7 +16,7 @@ exports.pboiAccountCreate = void 0;
 const Customer_1 = require("../Customer/Customer");
 const prompt_sync_1 = __importDefault(require("prompt-sync"));
 const CustomerDetailValidation_1 = require("../Customer/CustomerDetailValidation");
-const DbQueryController_1 = require("../Helper/DbQueryController");
+const DbQueryController_1 = require("../DbHelper/DbQueryController");
 const PROMPT = (0, prompt_sync_1.default)();
 let custobj;
 function pboiAccountCreate() {

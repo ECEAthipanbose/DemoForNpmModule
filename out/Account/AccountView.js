@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.showingAccountStatement = void 0;
-const DbQueryController_1 = require("../Helper/DbQueryController");
+const DbQueryController_1 = require("../DbHelper/DbQueryController");
 function showingAccountStatement(accountno) {
     return __awaiter(this, void 0, void 0, function* () {
         let query = "SELECT date,account_no,deposit,withdraw FROM customer_statement WHERE account_no=" + accountno + ";";

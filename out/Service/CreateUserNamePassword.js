@@ -14,7 +14,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createUserNamePassword = void 0;
 const prompt_sync_1 = __importDefault(require("prompt-sync"));
-const DbQueryController_1 = require("../Helper/DbQueryController");
+const DbQueryController_1 = require("../DbHelper/DbQueryController");
 const Checking_1 = require("./Checking");
 const PROMPT = (0, prompt_sync_1.default)();
 function createUserNamePassword() {
