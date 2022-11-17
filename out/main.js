@@ -77,4 +77,4 @@ function start() {
         }
     });
 }
-start();
+run();
