@@ -6,39 +6,24 @@
     },
     {
         "id":2,
-        "name":"dog",
-        "sound":"lol lol"
+        "name":"Elephant",
+        "sound":"elephant says Pawoo!"
     },
-    {
-        "id":1,
-        "name":"cat",
-        "sound":"meow meow"
-    },
+    
      {
-        "id":2,
+        "id":3,
         "name":"dog",
         "sound":"lol lol"
     },
      {
-        "id":3,
+        "id":4,
         "name":"lion",
         "sound":"roar, growl, snarl"
     },
      {
-        "id":4,
+        "id":5,
         "name":"Bear",
         "sound":"roar growl"
-    },
-   
-     {
-        "id":3,
-        "name":"lion",
-        "sound":"roar, growl, snarl"
-    },
-     {
-        "id":4,
-        "name":"Bear",
-        "sound":"roar growl"
-     }
+    }
 
 ]
